@@ -1,5 +1,5 @@
-# A310 Computational Neuroscience - Okinawa Institute of Science and Technology, Spring 2018
-This repository is for modeling practice materials and homework of Computational Neuroscience course at Okinawa Institute of Science and Technology in the 2018 spring quarter.
+# A310 Computational Neuroscience - Okinawa Institute of Science and Technology, 2017/2018
+This repository is for modeling practice materials and homework of Computational Neuroscience course at Okinawa Institute of Science and Technology in 2018.
 
 In modeling classes, we focus on implementing physiological concepts about how neural systems function as computer simulations, which will help us understand how diverse phenomena in real neural systems arise from the underlying principles. For this, we will mainly use the [NEURON](https://www.neuron.yale.edu/neuron/) simulation platform, which uses [Python](https://www.python.org) programming language for interface. We will also cover some basic analysis techniques for neural data, but most of our focus will be constructing models and running their simulations.
 
