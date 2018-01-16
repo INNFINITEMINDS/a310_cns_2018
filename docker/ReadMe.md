@@ -29,14 +29,14 @@
 
 7. Enter
 
-   ~~~shell
+   ~~~bash
    nrngui -python
    ~~~
 
 
-   and see if it opens a window in the virtual desktop.
+   and see that it opens a window in the virtual desktop <sup>[1](#myfootnote3), [2](#myfootnote3)</sup>.
 
-8. A [Jupyter notebook](http://jupyter.org) will also automatically start. Find the lines like
+8. A [Jupyter](http://jupyter.org) notebook will also automatically start. Find the lines like
 
    ```text
    Copy/paste this URL into your browser when you connect for the first time,
@@ -44,11 +44,16 @@
        http://0.0.0.0:8888/?token=127e39a78e32ea3989e066c52f38a439d0ff17869c4ad9b8
    ```
 
-   in starting messages, and open the page in a web browser.
+   in starting messages, and open the page in a web browser <sup>[3](#myfootnote3)</sup>.
 
 
-* By default, the directory that contains the start script is mounted at `/root/Documents`. If you want to change this, edit the start script and change ${PWD} to a local directory you want to use.
 
-* The size of the desktop is 1620x1296. If you want to change this, change `VNC_RESOLUTION=1620x1296` in the start script to whichever size you want.
 
+## Additional notes
+
+<a name="myfootnote1">1</a>. By default, the directory that contains the start script is mounted at `/root/Documents`. If you want to change this, edit the start script and change ${PWD} to a local directory you want to use.
+
+<a name="myfootnote2">2</a>. The size of the desktop is 1620x1296. If you want to change this, change `VNC_RESOLUTION=1620x1296` in the start script to whichever size you want.
+
+<a name="myfootnote3">3</a>. In some systems, 0.0.0.0 may not be accessible. In this case replace 0.0.0.0 by localhost.
 
