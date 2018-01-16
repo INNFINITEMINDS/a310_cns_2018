@@ -12,7 +12,7 @@
    docker pull shhongoist/a310_cns_2018
    ```
 
-5. Download [start.sh](https://raw.githubusercontent.com/shhong/a310_cns_2018/master/docker/start.sh) (or [start.ps1](https://raw.githubusercontent.com/shhong/a310_cns_2018/master/docker/start.ps1) in Windows) and run it by
+5. Download [start.sh](https://raw.githubusercontent.com/CNS-OIST/a310_cns_2018/master/docker/start.sh) (or [start.ps1](https://raw.githubusercontent.com/CNS-OIST/a310_cns_2018/master/docker/start.ps1) in Windows) and run it by
 
    ~~~shell
    ./start
