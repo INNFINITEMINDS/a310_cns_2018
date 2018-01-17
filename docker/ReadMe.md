@@ -15,7 +15,7 @@
 5. Download [start.sh](https://raw.githubusercontent.com/CNS-OIST/a310_cns_2018/master/docker/start.sh) (or [start.ps1](https://raw.githubusercontent.com/CNS-OIST/a310_cns_2018/master/docker/start.ps1) in Windows) and run it by
 
    ~~~shell
-   ./start.sh  # or .\start in Windows
+   ./start.sh  # or .\start.ps1 in Windows
    ~~~
    This starts a virtual linux environment that will give you a shell prompt as 
 
