@@ -17,25 +17,29 @@ We use NEURON 7.5 with Python 3.6. **We recommend using our [Docker](https://en.
 
 In our first modeling session, we will cover the very basic of Python programming language and model/simulation construction by using NEURON.
 
-#### Homework #1 — due: Feb 2, 2018
+#### Homework #1 — due: Feb 7, 2018 (extended)
 
-Our first homework will be about developing skills in basic Python and handling numerical data in Python and NEURON.
+Our first homework is about developing skills in basic Python and handling numerical data in Python and NEURON.
 
 ### Modeling class #1 — Feb 8, 2018
 
-TBA
+In the second modeling class, we will go through how to add synapses on neurons and how to activate them by connecting presynaptic neurons or artificial spike generators --- a neural network!
+
+#### Homework #2 — due: Feb 28, 2018
+
+The second homework is mainly about intergration and transfer of synaptic inputs.
 
 ### Modeling class #2 — Mar 1, 2018
 
-TBA
+The third modeling class will be about active membrane and intracellular mechanisms.
 
 ### Modeling class #3 — Mar 22, 2018
 
-TBA
+The fourth modeling class will focus more on active mechanisms, and also building a networks simulation.
 
 ### Modeling class #4 — April 12, 2018  
 
-TBA
+In our final session, we will work on network simulations with synaptic plasticity.
 
 ---
 _Written by Sungho Hong, Computational Neuroscience Unit, Okinawa Institutes of Science and Technology_
