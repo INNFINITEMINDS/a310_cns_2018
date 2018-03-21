@@ -13,7 +13,7 @@ We use NEURON 7.5 with Python 3.6. **We recommend using our [Docker](https://en.
 
 ## Schedule of modeling classes and homework dues
 
-### Modeling class: introduction — Jan 18, 2018
+### [Modeling class: introduction](https://github.com/CNS-OIST/a310_cns_2018/tree/master/tutorial_1) — Jan 18, 2018
 
 In our first modeling session, we will cover the very basic of Python programming language and model/simulation construction by using NEURON.
 
@@ -21,7 +21,7 @@ In our first modeling session, we will cover the very basic of Python programmin
 
 Our first homework is about developing skills in basic Python and handling numerical data in Python and NEURON.
 
-### Modeling class #1 — Feb 8, 2018
+### [Modeling class #1]((https://github.com/CNS-OIST/a310_cns_2018/tree/master/tutorial_2) — Feb 8, 2018
 
 In the second modeling class, we will go through how to add synapses on neurons and how to activate them by connecting presynaptic neurons or artificial spike generators --- a neural network!
 
@@ -29,7 +29,7 @@ In the second modeling class, we will go through how to add synapses on neurons 
 
 The second homework is mainly about intergration and transfer of synaptic inputs.
 
-### Modeling class #2 — Mar 1, 2018
+### [Modeling class #2]((https://github.com/CNS-OIST/a310_cns_2018/tree/master/tutorial_3) — Mar 1, 2018
 
 The third modeling class will be about active membrane and intracellular mechanisms.
 
