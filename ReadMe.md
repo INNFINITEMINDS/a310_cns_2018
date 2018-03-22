@@ -37,7 +37,7 @@ The third modeling class will be about active membrane and intracellular mechani
 
 The third homework is about active ion channels and their role in spike initiation.
 
-### Modeling class #3 — Mar 22, 2018
+### [Modeling class #3](https://github.com/CNS-OIST/a310_cns_2018/tree/master/tutorial_4) — Mar 22, 2018
 
 The fourth modeling class will focus more on active mechanisms, and also building a networks simulation.
 
