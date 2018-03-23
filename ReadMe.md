@@ -43,7 +43,7 @@ The fourth modeling class will focus more on active mechanisms, and also buildin
 
 ### Modeling exercises feedback - March 29, 2018
 
-In this feedback sessions, we will discuss about various issues and gotchas in model building.
+In this feedback session, we will discuss about various issues and gotchas in model building.
 
 ### Modeling class #4 — April 12, 2018  
 
