@@ -45,7 +45,7 @@ The fourth modeling class will focus more on active mechanisms, and also buildin
 
 In this feedback session, we will discuss about various issues and gotchas in model building.
 
-### Modeling class #4 — April 12, 2018  
+### Modeling class #4 — April 5, 2018  
 
 In our final session, we will work on network simulations with synaptic plasticity.
 
