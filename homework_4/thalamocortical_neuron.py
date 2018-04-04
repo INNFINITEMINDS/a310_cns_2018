@@ -1,6 +1,6 @@
 """
 
-cell_thalamocortical.py
+thalamocortical_neuron.py
 
 Adapted from:
 [Thalamocortical Relay cell under current clamp in high-conductance state (Zeldenrust et al 2018)
