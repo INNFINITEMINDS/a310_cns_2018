@@ -45,7 +45,7 @@ The fourth modeling class will focus more on active mechanisms, and also buildin
 
 ~~In this feedback session, we will discuss about various issues and gotchas in model building.~~
 
-### [Modeling class #4]((https://github.com/CNS-OIST/a310_cns_2018/tree/master/tutorial_5) — April 5, 2018  
+### [Modeling class #4](https://github.com/CNS-OIST/a310_cns_2018/tree/master/tutorial_5) — April 5, 2018  
 
 In our final session, we will work more on network simulations.
 
