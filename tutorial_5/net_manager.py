@@ -90,11 +90,12 @@ class ParallelNetManager(NetManager):
         self.idvec = h.Vector()
 
     def register_cell(self, gid, cellobject):
-        super().register_cell(gid, cellobject)
-        self.pc.set_gid2node(gid, int(self.pc.id()))
-        nc = self.gid2cell[gid].connect2target(None)
-        # nc.threshold = thresh
-        self.pc.cell(gid, nc)
+        if self.gid_exists(gid):
+            super().register_cell(gid, cellobject)
+            self.pc.set_gid2node(gid, int(self.pc.id()))
+            nc = self.gid2cell[gid].connect2target(None)
+            # nc.threshold = thresh
+            self.pc.cell(gid, nc)
 
     def spike_record(self, gid, thresh=0):
         if self.pc.gid_exists(gid):

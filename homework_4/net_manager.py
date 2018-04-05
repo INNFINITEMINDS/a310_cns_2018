@@ -43,6 +43,7 @@ class SerialNetManager(NetManager):
         super().__init__(N)
         self.nc_reset()
         self.gidlist = range(N)
+        self.spikes = {}
 
     def spike_record(self, gid, thresh=0):
         self.spikes[gid] = (h.APCount(self.gid2cell[gid].soma(0.5)), h.Vector())
@@ -57,7 +58,6 @@ class SerialNetManager(NetManager):
     def run(self):
         h.run()
         self.gatherspikes()
-        self.write_spikes()
 
     def gatherspikes(self):
         self.spikevec = []
@@ -90,11 +90,12 @@ class ParallelNetManager(NetManager):
         self.idvec = h.Vector()
 
     def register_cell(self, gid, cellobject):
-        super().register_cell(gid, cellobject)
-        self.pc.set_gid2node(gid, int(self.pc.id()))
-        nc = self.gid2cell[gid].connect2target(None)
-        # nc.threshold = thresh
-        self.pc.cell(gid, nc)
+        if self.gid_exists(gid):
+            super().register_cell(gid, cellobject)
+            self.pc.set_gid2node(gid, int(self.pc.id()))
+            nc = self.gid2cell[gid].connect2target(None)
+            # nc.threshold = thresh
+            self.pc.cell(gid, nc)
 
     def spike_record(self, gid, thresh=0):
         if self.pc.gid_exists(gid):
