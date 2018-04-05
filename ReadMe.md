@@ -41,7 +41,7 @@ The third homework is about active ion channels and their role in spike initiati
 
 The fourth modeling class will focus more on active mechanisms, and also building a network simulation.
 
-~~### Modeling exercises feedback - March 29, 2018 (Cancelled) ~~
+### Modeling exercises feedback - March 29, 2018 (Cancelled)
 
 ~~In this feedback session, we will discuss about various issues and gotchas in model building.~~
 
