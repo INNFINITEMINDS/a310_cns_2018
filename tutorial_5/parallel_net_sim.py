@@ -52,28 +52,20 @@ class MorrisLecar(Cell):
         self.synlist[-1].tau2 = 2.0
 
 
-Ncells = 2000                    # Number of cells
+Ncells = 1000                    # Number of cells
 Nexc = int((Ncells/5)*4)         # Excitatory cells = 80%
 Ninh = int(Ncells/5)             # Inhibitory cells = 20%
 nexcpre = int(Nexc*0.1)
 ninhpre = int(Ninh*0.1)
 
-print(Nexc, Ninh, nexcpre, ninhpre)
-
 from net_manager import ParallelNetManager
 pnm = ParallelNetManager(Ncells)
 
 for i in range(Ncells):
-    if pnm.gid_exists(i):
-        pnm.register_cell(i, MorrisLecar(i))
+    pnm.register_cell(i, MorrisLecar(i))
 
-# gexc = 2e-3   # g_exc = 1.5 nS
-# # ginh = 2.5*gexc   # g_inh = 6.2 g_exc
-# ginh = 2.3*gexc   # g_inh = 6.2 g_exc
-
-gexc = 30e-3/2   # g_exc = 1.5 nS
-# ginh = 2.5*gexc   # g_inh = 6.2 g_exc
-ginh = 23*gexc/2   # g_inh = 6.2 g_exc
+gexc = 2e-3   # g_exc = 1.5 nS
+ginh = 2*gexc   # g_inh = 2*g_exc
 
 for i in pnm.gidlist:
     exc_pre = np.random.randint(0, Nexc, nexcpre)     # Randomly choose 10% of the exc cells
@@ -91,7 +83,7 @@ pnm.set_maxstep(100)
 pnm.want_all_spikes()
 pnm.set_output_filename('spikes.dat')
 
-h.tstop = 400
+h.tstop = 200
 h.init()
 pnm.run()
 
