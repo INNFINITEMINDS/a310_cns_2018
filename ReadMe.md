@@ -39,13 +39,13 @@ The third homework is about active ion channels and their role in spike initiati
 
 ### [Modeling class #3](https://github.com/CNS-OIST/a310_cns_2018/tree/master/tutorial_4) — Mar 22, 2018
 
-The fourth modeling class will focus more on active mechanisms, and also building a networks simulation.
+The fourth modeling class will focus more on active mechanisms, and also building a network simulation.
 
 ### Modeling exercises feedback - March 29, 2018
 
-In this feedback sessions, we will discuss about various issues and gotchas in model building.
+In this feedback session, we will discuss about various issues and gotchas in model building.
 
-### Modeling class #4 — April 12, 2018  
+### Modeling class #4 — April 5, 2018  
 
 In our final session, we will work on network simulations with synaptic plasticity.
 
